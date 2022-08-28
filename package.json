@@ -1,7 +1,7 @@
 {
   "name": "testpackage",
   "version": "1.0.0",
-  "description": "",
+  "description": "A test package",
   "main": "index.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@rahulkatiyar19955"
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/rahulkatiyar19955/testpackage.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "rahulkatiyar19955",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rahulkatiyar19955/testpackage/issues"
