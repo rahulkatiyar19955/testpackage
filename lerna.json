@@ -1,0 +1,21 @@
+{
+    "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+    "useNx": true,
+    "useWorkspaces": true,
+    "version": "independent",
+    "command":{
+      "publish":{
+        "registry": "https://npm.pkg.github.com/deepx-inc",
+        "ignoreChanges": [
+          "**/*.md",
+          "**/package-lock.json",
+          "packages/**/*.stories.jsx",
+          "packages/**/*.stories.js",
+          "packages/**/*.stories.mdx"
+        ]
+      },
+      "version": {
+        "message": "chore(publish): update packages"
+      }
+    }
+  }
