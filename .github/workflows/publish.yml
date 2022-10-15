@@ -65,5 +65,5 @@ jobs:
         git stash
         git checkout ${{ github.ref }}
         
-        npx lerna version --conventional-commits --yes
+        npx lerna version --conventional-commits --sign-git-commit --sign-git-tag --yes
         npx lerna publish from-package --yes
