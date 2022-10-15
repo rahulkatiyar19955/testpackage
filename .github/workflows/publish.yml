@@ -54,8 +54,5 @@ jobs:
       #   GIT_COMMITTER_EMAIL: ${{ steps.import-gpg.outputs.email }}
 
       run: |
-        git stash
-        git checkout ${{ github.ref }}
-        
         npx lerna version --conventional-commits --yes
         npx lerna publish from-package --yes
