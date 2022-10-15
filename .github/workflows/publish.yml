@@ -64,8 +64,6 @@ jobs:
       run: |
         git stash
         git checkout ${{ github.ref }}
-        git config --global user.email "rahulkatiyar19955@gmail.com"
-        git config 
         
         npx lerna version --conventional-commits --yes
         npx lerna publish from-package --yes
